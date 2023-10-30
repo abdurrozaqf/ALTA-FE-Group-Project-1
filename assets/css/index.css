@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --color-1: #19345e;
+  --color-2: #f47522;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* .col,
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7 {
+  border: 1px solid yellow;
+} */
+
+/* .row {
+  border: 1px solid red;
+} */
+
+.padding-navbar {
+  padding-inline: 8.375rem !important;
+}
+
+.navbar-nav {
+  gap: 1.8125rem !important;
+}
+
+/* section-1 */
+
+.section-1 {
+  padding-block: 9.0625rem;
+  padding-left: 7.5rem;
+}
+
+.logo-section-1 {
+  margin-top: 5.25rem;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 1.5rem;
+}
+
+.logo-section-1 img {
+  height: 1.9375rem;
+}
+
+/* section-2 */
+.section-2 {
+  padding-block: 8.5rem;
+  padding-inline: 10rem;
+}
+
+.benefit-section-2 {
+  display: flex;
+}
+
+.icon-benefit {
+  content: "";
+  display: flex;
+  width: 3.375rem;
+  height: 3.375rem;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7ebfc;
+}
+
+button {
+  border: none;
+  color: white;
+  font-weight: 500;
+  padding-block: 1rem;
+  padding-inline: 1.5625rem;
+  background-color: var(--color-1);
+}
+
+/* section-3 */
+
+.section-3 {
+  padding-block: 8.25rem;
+  padding-inline: 10.25rem;
+}
+
+.benefit-section-3 {
+  display: flex;
+}
