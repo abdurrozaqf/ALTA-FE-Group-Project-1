@@ -8,7 +8,7 @@
 ## Catatan
 
 - Untuk mengerjakan bagian page yang sudah disepakati, buatlah branch dengan nama page tersebut
-- Pastikan saat membuat branch baru, untuk berada di branch DEV.
-- Jika berada di branch MAIN, ganti telebih dahulu dari branch MAIN ke DEV dengan command git chekout dev.
-- Contoh untuk mengerjakan bagian PAGE Home, maka membuat branch baru dengan nama: branch home
-- Setelah berada di branch DEV, barulah untuk membuat branch baru dengan nama PAGE yang kalian kerjakan.
+- Pastikan saat membuat branch baru, untuk berada di branch `dev`.
+- Jika berada di branch `main`, ganti telebih dahulu dari branch `main` ke `dev` dengan command `git chekout dev`.
+- Contoh untuk mengerjakan bagian `PAGE Home`, maka membuat branch baru dengan nama: `git branch home`
+- Setelah berada di branch `dev`, barulah untuk membuat branch baru dengan nama PAGE yang kalian kerjakan.
