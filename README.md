@@ -1,9 +1,9 @@
 ## Penamaan file html dan css yang nantinya dibuat.
 
 - PAGE Home => index.html dan index.css
-- PAGE Features => features.html dan features.css
-- PAGE About-Us => about-us.html dan about-us.css
-- PAGE Contact => contact.html dan contact.css
+- PAGE Features => `features.html` dan `features.css`
+- PAGE About-Us => `about-us.html` dan `about-us.css`
+- PAGE Contact => `contact.html` dan `contact.css`
 
 ## Catatan
 
