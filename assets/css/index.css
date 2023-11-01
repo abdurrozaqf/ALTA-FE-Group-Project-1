@@ -75,6 +75,15 @@ button {
   padding-inline: 10rem;
 }
 
+.section-2 h1 {
+  font-size: 3.25rem;
+  color: var(--color-1);
+}
+
+.section-2 h5 {
+  color: var(--color-1);
+}
+
 .benefit-section-2 {
   display: flex;
 }
@@ -91,11 +100,6 @@ button {
   background-color: #e7ebfc;
 }
 
-.section-2 h1 {
-  font-size: 3.25rem;
-  color: var(--color-1);
-}
-
 /* section-3 */
 .section-3 {
   padding-block: 8.25rem;
@@ -104,6 +108,10 @@ button {
 
 .section-3 h1 {
   font-size: 3.25rem;
+  color: var(--color-1);
+}
+
+.section-3 h5 {
   color: var(--color-1);
 }
 
