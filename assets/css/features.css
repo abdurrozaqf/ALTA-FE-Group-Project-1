@@ -1,5 +1,13 @@
+:root {
+  --color-1: #19345e;
+  --color-2: #f47522;
+  --color-3: #e7ebfc;
+}
+
 body {
   font-family: "Inter", sans-serif;
+  width: 100%;
+  height: 100%;
 }
 
 /* NAVBAR */
@@ -19,13 +27,13 @@ body {
 
 /* Section 1 */
 .section-1 {
-  background-color: #e7ebfc;
+  background-color: var(--color-3);
 }
 
 .headings-1 {
   width: 923px;
   font-size: 64px;
-  color: #19345e;
+  color: var(--color-1);
 }
 .section-1 .text-information {
   width: 900px;
@@ -42,9 +50,9 @@ body {
 }
 
 .cta-explore {
-  background-color: #19345e;
+  background-color: var(--color-1);
   justify-content: start;
-  color: #fff;
+  color: var(--color-3);
   width: 240px;
   height: 56px;
   font-size: 14px;
@@ -56,26 +64,26 @@ body {
 .the-status {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--color-3);
 }
 
 .paragraph-20,
 .the-compliments {
   font-size: 1.25rem;
   font-weight: 400;
-  color: #fff;
+  color: var(--color-3);
 }
 /* END SECTION 1 */
 
 /* SECTION 2 */
   .section-2 {
-    background-color: #19345e;
+    background-color: var(--color-1);
   }
 /* END SECTION 2 */
 
 /* SECTION 3 */
 .section-3 {
-  background-color: #ffffff;
+  background-color: var(--color-3);
 }
 
 .left-cont {
@@ -125,7 +133,7 @@ body {
 
 .card-name {
   font-weight: 700;
-  color: #19345e;
+  color: var(--color-1);
   margin: 0;
 }
 
@@ -138,11 +146,11 @@ body {
 
 /* SECTION 7 */
   .section-7 {
-    background-color: #fff;
+    background-color: var(--color-3);
   }
 
   .headings-7 {
-    color: #19345e;
+    color: var(--color-1);
   }
 
   .card-description {
@@ -151,3 +159,50 @@ body {
 
 /* END SECTION 7 */
 
+/* SECTION 8 */
+.section-8 {
+  padding-inline: 0;
+  padding-block: 4rem;
+  background-color: var(--color-3);
+}
+
+.section-8 h1 {
+  font-size: 3.25rem;
+  color: var(--color-1);
+}
+
+.section-8 p {
+  font-size: 1.125rem;
+}
+/* END SECTION 8 */
+
+/* FOOTER */
+.footer {
+  padding-block: 2.75rem;
+  padding-inline: 8.5rem;
+  background-color: var(--color-1);
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer p {
+  color: white;
+}
+
+.footer-link {
+  gap: 1.75rem;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 2rem;
+}
+
+.footer .line {
+  width: 100%;
+  opacity: 0.08;
+  height: 0.125rem;
+  margin-block: 1.375rem;
+  background-color: var(--color-3);
+}
+/* END FOOTER */
