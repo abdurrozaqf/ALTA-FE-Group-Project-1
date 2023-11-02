@@ -26,16 +26,17 @@ body {
 }
 
 .headings-1 {
-  /* width: auto; */
+  width: 923px;
   font-size: 64px;
   color: #19345e;
 }
 .section-1 .text-information {
-  /* width: auto;
-    height: auto; */
+  width: 900px;
+  height: 102px;
   font-size: 24px;
   font-weight: 400;
   font-style: italic;
+  letter-spacing: -0.43px;
 }
 
 .section-1 img {
@@ -180,6 +181,30 @@ body {
   background-color: #e7ebfc;
 }
 
+@media only screen and (max-width: 991px) {
+  /* SECTION-1 */
+  .headings-1 {
+    width: auto;
+    font-size: 2rem;
+    color: #19345e;
+    justify-content: end;
+  }
+
+  .section-1 .text-information {
+    width: auto;
+    height: auto;
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: -0.43px;
+  }
+  /* SECTION 5 */
+  .card {
+    max-width: 100%;
+  }
+  
+}
+
 @media only screen and (max-width: 767px) {
   /* NAVBAR */
   .padding-navbar {
@@ -204,7 +229,7 @@ body {
   }
 
   .section-2 div {
-    padding-inline: 2rem;
+    padding-inline: 1rem;
   }
 
   /* SECTION-3 */
