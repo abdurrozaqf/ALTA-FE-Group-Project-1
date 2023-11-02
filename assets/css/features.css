@@ -20,6 +20,7 @@ body {
   gap: 1.8125rem !important;
 }
 
+
 /* END NAVBAR */
 
 /* HERO */
@@ -28,15 +29,15 @@ body {
 /* Section 1 */
 .section-1 {
   background-color: var(--color-3);
+  padding-left: 7.5rem;
 }
 
 .headings-1 {
-  width: 923px;
   font-size: 64px;
   color: var(--color-1);
 }
-.section-1 .text-information {
-  width: 900px;
+.text-information {
+  margin-bottom: 10rem;
   height: 102px;
   font-size: 24px;
   font-weight: 400;
@@ -44,8 +45,6 @@ body {
 }
 
 .section-1 img {
-  width: 90px;
-  height: 90px;
   margin-top: 5rem;
 }
 
@@ -60,7 +59,7 @@ body {
   border-radius: 1px;
 }
 
-.headings-3,
+.headings-2,
 .the-status {
   font-size: 2.5rem;
   font-weight: 700;
@@ -78,12 +77,27 @@ body {
 /* SECTION 2 */
   .section-2 {
     background-color: var(--color-1);
+    padding: 5rem;
+  }
+
+  .the-status {
+    font-size: 2.5rem;
+  }
+
+  .the-compliments {
+    font-size: 1.25rem
+
   }
 /* END SECTION 2 */
 
 /* SECTION 3 */
+.center-cont {
+  margin: 0;
+}
+
 .section-3 {
   background-color: var(--color-3);
+  padding: 10rem 0;
 }
 
 .left-cont {
@@ -93,6 +107,12 @@ body {
   background-position: center;
   height: 500px;
   width: 400px;
+}
+
+.headings-3 {
+  font-weight: 700;
+  font-size: 3.25rem; 
+  color: #19345e
 }
 
 
@@ -206,3 +226,120 @@ body {
   background-color: var(--color-3);
 }
 /* END FOOTER */
+
+/* Media Query */
+
+/* HP */
+/* ukuran 767px kebawah pake ini */
+@media only screen and (max-width: 767px) {
+  /* NAVBAR */
+  .padding-navbar {
+    padding-inline: 2rem !important;
+  }
+
+  .navbar-nav {
+    gap: 0rem !important;
+  }
+
+  .padding-navbar-content {
+    padding-left: 0;
+  }
+
+  /* Section 1 */
+  .section-1 {
+    padding: 2rem;
+  }
+  .headings-1 {
+    font-size: 2rem;
+  }
+  .text-information {
+    font: 1rem;
+  }
+
+  /* Section 2 */
+  .section-2 {
+    padding: 3rem;
+  }
+
+  .stats-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+
+  .the-status {
+    display: block;
+    font-size: 1.5rem;
+  }
+
+  .the-compliments {
+    display: block;
+    text-align: center;
+    font-size: 0.8rem;
+
+  }
+
+  /* Section 3 */
+
+  .left-cont {
+    margin: 0 5rem 3rem 5rem;
+  }
+
+  .right-cont {
+    margin: 0;
+    flex-wrap: nowrap;
+  }
+
+  .headings-3 {
+    font-size: 2rem;
+  }
+
+  /* FOOTER */
+  .footer {
+    padding-inline: 2rem;
+  }
+
+  .footer p {
+    color: white;
+    font-size: 0.6rem;
+  }
+}
+
+
+/* Tablet */
+@media only screen and (max-width: 991px) {
+  /* NAVBAR */
+  .padding-navbar {
+    padding-inline: 4rem !important;
+  }
+
+  .navbar-nav {
+    gap: 0.5rem !important;
+  }
+
+  .padding-navbar-content {
+    padding-left: 0;
+  }
+
+  /* Section 1 */
+
+  .section-1 {
+    padding: 3rem;
+  }
+
+  .headings-1 {
+    font-size: 3rem;
+  }
+
+  /* FOOTER */
+  .footer {
+    padding-inline: 4rem;
+  }
+
+  .footer p {
+    color: white;
+    font-size: 0.7rem;
+  }
+}
