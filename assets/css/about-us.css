@@ -108,7 +108,91 @@ body {
 
 /* SECTION 4 */
 .section-4 {
-  margin: 0;
+  margin-bottom: 224px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel {
+  margin-top: 170px;
+}
+
+.rightSlide {
+  margin-left: 3rem;
+}
+
+.imgSlider {
+  height: 405px;
+  width: 350px;
+  margin-left: 9rem;
+}
+
+.slideTag {
+  width: 540px;
+  height: 260px;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  color: #19345e;
+}
+
+.iconSlide {
+  width: 126px;
+  height: 37px;
+}
+
+.dapit {
+  width: 144px;
+  height: 34px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: -0.43px;
+  padding-top: 7.5px;
+  color: #1a1a1a;
+}
+
+.jabatan {
+  width: 207px;
+  height: 26px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.29px;
+  color: #767676;
+}
+
+.dataDiri {
+  padding-top: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #e7ebfc;
+  border-radius: 100%;
+  width: 65px;
+  height: 65px;
+}
+
+.carousel-control-prev {
+  left: 0px;
+}
+
+.carousel-control-prev img {
+  width: 32px;
+  height: 32px;
+}
+
+.carousel-control-next {
+  right: 0px;
+}
+
+.carousel-control-next img {
+  width: 32px;
+  height: 32px;
 }
 
 /* END SECTION 4 */
@@ -198,11 +282,43 @@ body {
     font-style: italic;
     letter-spacing: -0.43px;
   }
+
+  /* SECTION-4 */
+  .imgSlider {
+    display: block;
+    height: 405px;
+    width: 350px;
+    margin-right: 2rem;
+  }
+
+  .slideTag {
+    display: block;
+    width: auto;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #19345e;
+    margin: 0 2.5rem 0 1.5rem;
+  }
+
+  .dataDiri {
+    padding: 0 1.5rem 0 1.5rem;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    top: 100%;
+    transform: translateY(-50%);
+    background-color: #e7ebfc;
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+    margin: 4rem;
+  }
+
   /* SECTION 5 */
   .card {
     max-width: 100%;
   }
-  
 }
 
 @media only screen and (max-width: 767px) {
@@ -220,16 +336,8 @@ body {
   }
 
   /* SECTION-2 */
-  .section-2 {
-    padding-block: 4rem;
-  }
-
-  .section-2 h3 {
-    font-size: 2rem;
-  }
-
-  .section-2 div {
-    padding-inline: 1rem;
+  .kartu {
+    padding: 4rem;
   }
 
   /* SECTION-3 */
