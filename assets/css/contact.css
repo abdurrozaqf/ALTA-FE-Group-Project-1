@@ -82,7 +82,6 @@ button {
 }
 
 /* SECTION-2 */
-
 .section-2 {
   position: relative;
   padding-top: 3.5rem;
@@ -92,7 +91,7 @@ button {
 
 .section-2 form {
   right: 10%;
-  bottom: 0%;
+  bottom: 25%;
   width: 30.5rem;
   position: absolute;
   border: 1px solid #b4b4b4;
@@ -101,6 +100,7 @@ button {
 .section-2 form h1 {
   font-size: 1.75rem;
 }
+
 .section-2 form p {
   color: #969696;
   letter-spacing: 0.05rem;
@@ -120,6 +120,7 @@ button {
   padding-inline: 9rem;
   padding-bottom: 8.2rem;
 }
+
 .section-3 h1 {
   font-size: 3.25rem;
 }
@@ -177,7 +178,10 @@ button {
     padding-inline: 4rem;
     padding-top: 6.8rem;
     padding-bottom: 4.5rem;
-    background-color: var(--color-3);
+  }
+
+  .section-1 h1 {
+    font-size: 2.5rem;
   }
 
   /* SECTION-2 */
@@ -219,7 +223,6 @@ button {
   }
 
   .footer p {
-    color: white;
     font-size: 0.7rem;
   }
 }
@@ -252,8 +255,6 @@ button {
 
   .section-1 h2 {
     font-size: 1rem;
-    font-weight: normal;
-    margin-bottom: 6rem;
     letter-spacing: 0.0063rem;
   }
 
@@ -264,6 +265,10 @@ button {
 
   .section-2 form {
     border: none;
+  }
+
+  .section-2 p {
+    font-size: 0.875rem;
   }
 
   .section-2 .form-control {
@@ -277,6 +282,10 @@ button {
   /* SECTION-3 */
   .section-3 {
     padding-inline: 2rem;
+  }
+
+  .section-3 h2 {
+    font-size: 0.83rem;
   }
 
   .section-3 img {
