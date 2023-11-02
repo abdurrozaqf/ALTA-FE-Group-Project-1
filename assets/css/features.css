@@ -20,11 +20,9 @@ body {
   gap: 1.8125rem !important;
 }
 
-
 /* END NAVBAR */
 
 /* HERO */
-
 
 /* Section 1 */
 .section-1 {
@@ -75,19 +73,18 @@ body {
 /* END SECTION 1 */
 
 /* SECTION 2 */
-  .section-2 {
-    background-color: var(--color-1);
-    padding: 5rem;
-  }
+.section-2 {
+  background-color: var(--color-1);
+  padding: 5rem;
+}
 
-  .the-status {
-    font-size: 2.5rem;
-  }
+.the-status {
+  font-size: 2.5rem;
+}
 
-  .the-compliments {
-    font-size: 1.25rem
-
-  }
+.the-compliments {
+  font-size: 1.25rem;
+}
 /* END SECTION 2 */
 
 /* SECTION 3 */
@@ -96,25 +93,37 @@ body {
 }
 
 .section-3 {
+  padding-block: 4rem;
+  padding-inline: 8rem;
   background-color: var(--color-3);
-  padding: 10rem 0;
 }
 
 .left-cont {
-  background-image: linear-gradient(rgba(25, 52, 94, 0.5), rgba(25, 52, 94, 0.5)), url("../images/stock_photo.jpg");
-  background-repeat: no-repeat;
+  width: 400px;
+  height: 500px;
+  position: relative;
   background-size: cover;
   background-position: center;
-  height: 500px;
-  width: 400px;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      rgba(25, 52, 94, 0.5),
+      rgba(25, 52, 94, 0.5)
+    ),
+    url("../images/stock_photo.jpg");
+}
+
+.left-cont p {
+  left: 1rem;
+  bottom: 0;
+  position: absolute;
+  color: white;
 }
 
 .headings-3 {
   font-weight: 700;
-  font-size: 3.25rem; 
-  color: #19345e
+  font-size: 3.25rem;
+  color: #19345e;
 }
-
 
 /* END SECTION 3 */
 
@@ -123,9 +132,12 @@ body {
   padding-top: 15rem;
 }
 
-
 .right-container {
-  background-image: linear-gradient(rgba(25, 52, 94, 0.5), rgba(25, 52, 94, 0.5)), url("../images/Rectangle.png");
+  background-image: linear-gradient(
+      rgba(25, 52, 94, 0.5),
+      rgba(25, 52, 94, 0.5)
+    ),
+    url("../images/Rectangle.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -159,23 +171,21 @@ body {
 
 .card-job-desc {
   font-weight: 500;
-
 }
 
 /* END SECTION 6 */
 
 /* SECTION 7 */
-  .section-7 {
-    background-color: var(--color-3);
-  }
+.section-7 {
+  background-color: var(--color-3);
+}
 
-  .headings-7 {
-    color: var(--color-1);
-  }
+.headings-7 {
+  color: var(--color-1);
+}
 
-  .card-description {
-    
-  }
+.card-description {
+}
 
 /* END SECTION 7 */
 
@@ -266,8 +276,6 @@ body {
     justify-content: center;
     align-items: center;
   }
-  
-
 
   .the-status {
     display: block;
@@ -278,13 +286,22 @@ body {
     display: block;
     text-align: center;
     font-size: 0.8rem;
-
   }
 
-  /* Section 3 */
+  /* SECTION-3 */
+
+  .section-3 {
+    padding-inline: 2rem;
+    padding-block: 2rem;
+  }
 
   .left-cont {
     margin: 0 5rem 3rem 5rem;
+  }
+
+  .left-cont {
+    width: 15rem;
+    height: 16rem;
   }
 
   .right-cont {
@@ -306,7 +323,6 @@ body {
     font-size: 0.6rem;
   }
 }
-
 
 /* Tablet */
 @media only screen and (max-width: 991px) {
@@ -331,6 +347,12 @@ body {
 
   .headings-1 {
     font-size: 3rem;
+  }
+
+  /* SECTION-3 */
+  .section-3 {
+    padding-inline: 4rem;
+    padding-block: 4rem;
   }
 
   /* FOOTER */
