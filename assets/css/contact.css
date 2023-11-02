@@ -47,38 +47,24 @@ button {
 
 /* SECTION -1 */
 .section-1 {
-  padding-inline: 9rem;
   padding-top: 6.8rem;
+  padding-inline: 9rem;
   padding-bottom: 4.5rem;
   background-color: var(--color-3);
 }
 
 .section-1 h1 {
   font-size: 4rem;
-  color: var(--color-1);
   font-weight: bold;
+  color: var(--color-1);
 }
 
 .section-1 h2 {
   font-size: 1.25rem;
   font-weight: normal;
   margin-bottom: 6rem;
-  letter-spacing: 0.063rem;
-}
-
-.section-1 .content-1 {
-  color: white;
-  align-items: center;
-  height: 4.625rem;
-  width: 11.25rem;
-  background-color: var(--color-1);
-}
-
-.section-1 .content-2 {
-  padding-block: 1rem;
-  padding-inline: 1.25rem;
-  background-color: white;
-  border: 1px solid var(--color-1);
+  line-height: 2rem;
+  letter-spacing: 0.1px;
 }
 
 /* SECTION-2 */
@@ -87,6 +73,18 @@ button {
   padding-top: 3.5rem;
   padding-inline: 9rem;
   padding-bottom: 8.2rem;
+}
+
+input {
+  border-radius: 0 !important;
+}
+
+select {
+  border-radius: 0 !important;
+}
+
+textarea {
+  border-radius: 0 !important;
 }
 
 .section-2 form {
@@ -255,12 +253,17 @@ button {
 
   .section-1 h2 {
     font-size: 1rem;
-    letter-spacing: 0.0063rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.1px;
   }
 
   /* SECTION-2 */
   .section-2 {
     padding-inline: 2rem;
+  }
+
+  .section-2 img {
+    height: 4rem;
   }
 
   .section-2 form {
