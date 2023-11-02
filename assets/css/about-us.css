@@ -107,7 +107,11 @@ body {
   /* END SECTION 3 */
   
   /* SECTION 4 */
-  
+  .section-4 {
+    margin: 0
+  }
+
+
   /* END SECTION 4 */
   
   /* SECTION 5 */
