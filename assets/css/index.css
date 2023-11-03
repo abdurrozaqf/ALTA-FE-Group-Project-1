@@ -41,8 +41,18 @@ button {
   padding-inline: 8.375rem !important;
 }
 
+.nav-link:hover {
+  font-weight: bold !important;
+  color: var(--color-1) !important;
+}
+
 .navbar-nav {
   gap: 1.8125rem !important;
+}
+
+.navbar-nav .active {
+  font-weight: bold !important;
+  color: var(--color-1) !important;
 }
 
 .padding-navbar-content {
