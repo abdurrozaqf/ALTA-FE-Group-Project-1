@@ -155,7 +155,6 @@ textarea {
   background-color: #fff;
 }
 
-/* Tablet */
 @media only screen and (max-width: 991px) {
   /* NAVBAR */
   .padding-navbar {
@@ -169,7 +168,6 @@ textarea {
   .padding-navbar-content {
     padding-left: 0;
   }
-  /* -------- */
 
   /* SECTION-1 */
   .section-1 {
@@ -225,8 +223,6 @@ textarea {
   }
 }
 
-/* HP */
-/* ukuran 767px kebawah pake ini */
 @media only screen and (max-width: 767px) {
   /* NAVBAR */
   .padding-navbar {
@@ -240,7 +236,6 @@ textarea {
   .padding-navbar-content {
     padding-left: 0;
   }
-  /* ------------- */
 
   /* SECTION-1 */
   .section-1 {
