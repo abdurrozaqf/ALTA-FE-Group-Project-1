@@ -33,6 +33,10 @@ button {
 }
 
 /* NAVBAR */
+.navbar {
+  z-index: 10;
+}
+
 .padding-navbar {
   padding-inline: 8.375rem !important;
 }
@@ -47,6 +51,7 @@ button {
 
 /* SECTION-1 */
 .section-1 {
+  margin-top: 5rem;
   padding-left: 7.5rem;
   padding-block: 9.0625rem;
 }
