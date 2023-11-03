@@ -45,81 +45,80 @@ button {
   padding-left: 4.25rem;
 }
 
-/* END NAVBAR */
-
-/* HERO */
-
 /* Section 1 */
 .section-1 {
-  background-color: var(--color-3);
+  padding-inline: 7rem;
   padding-top: 8.375rem;
-  padding-left: 7.5rem;
-  padding-bottom: 4rem;
+  padding-bottom: 5.75rem;
+  background-color: var(--color-3);
 }
 
 .section-1 h1 {
   font-size: 4rem;
-  font-weight: 700;
   color: var(--color-1);
 }
-.text-information {
-  margin-bottom: 5rem;
-  height: 6.375rem;
+
+.section-1 h2 {
   font-size: 1.5rem;
-  font-weight: 400;
   font-style: italic;
+  font-weight: normal;
+  line-height: 2.125rem;
 }
-
-.section-1 img {
-  margin-top: 5rem;
-}
-
-.cta-explore {
-  background-color: var(--color-1);
-  justify-content: start;
-  color: var(--color-3);
-  width: 240px;
-  height: 56px;
-  font-size: 14px;
-  border-style: none;
-  border-radius: 1px;
-}
-
-.headings-2,
-.the-status {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: var(--color-3);
-}
-
-.paragraph-20,
-.the-compliments {
-  font-size: 1.25rem;
-  font-weight: 400;
-  color: var(--color-3);
-}
-/* END SECTION 1 */
 
 /* SECTION 2 */
 .section-2 {
+  color: white;
+  padding-block: 4rem;
+  padding-inline: 10.3rem;
   background-color: var(--color-1);
-  padding: 5rem;
+}
+
+.section-2 .contet-1-section2 {
+  border-right: 1px solid grey;
+}
+
+.section-2 .contet-2-section2 {
+  border-right: 1px solid grey;
+}
+
+.section-2 .contet-3-section2 {
+  border-right: 1px solid grey;
+}
+
+.section-2 h1 {
+  font-size: 2.625rem;
+}
+
+.section-2 h2 {
+  font-size: 1.25rem;
+  font-weight: 400 !important;
 }
 
 .the-status {
-  font-size: 2.5rem;
+  font-weight: 700;
+  font-size: 3.25rem;
 }
 
 .the-compliments {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
 }
-/* END SECTION 2 */
 
 /* SECTION 3 */
 .section-3 {
-  padding-block: 4rem;
-  padding-inline: 8rem;
-  background-color: var(--color-3);
+  padding-top: 11.75rem;
+  padding-bottom: 6.25rem;
+  padding-inline: 7.5625rem;
+}
+
+.section-3 h1 {
+  color: var(--color-1);
+  font-size: 3.25rem;
+}
+.section-3 h2 {
+  color: #1e1e1e;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
 }
 
 .left-cont {
@@ -129,122 +128,145 @@ button {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(rgba(25, 52, 94, 0.5), rgba(25, 52, 94, 0.5)), url("../images/stock_photo.jpg");
+  background-image: linear-gradient(
+      rgba(25, 52, 94, 0.5),
+      rgba(25, 52, 94, 0.5)
+    ),
+    url("../images/stock_photo.jpg");
 }
 
 .left-cont p {
-  left: 1rem;
   bottom: 0;
-  position: absolute;
+  left: 1rem;
   color: white;
+  position: absolute;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
 }
-
-.right-cont h1 {
-  font-size: 3.25rem;
-  font-weight: 700;
-  color: var(--color-1);
-  padding-block: 1rem;
-}
-
-.right-cont h5 {
-  padding-bottom: 1rem;
-}
-
-.right-cont p {
-  padding-top: 1rem;
-  padding-left: 1rem;
-}
-
-/* END SECTION 3 */
 
 /* SECTION 4 */
 .section-4 {
-  padding-top: 15rem;
+  padding-block: 8rem;
+  padding-inline: 7.5rem;
 }
 
-.group-content {
-  text-align: center;
-  margin: 0;
+.section-4 h1 {
+  font-size: 1.25rem;
+  color: var(--color-1);
+}
+
+.section-4 p {
+  line-height: 1.625rem;
 }
 
 .right-container {
-  background-image: linear-gradient(rgba(25, 52, 94, 0.5), rgba(25, 52, 94, 0.5)), url("../images/Rectangle.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   height: 37.5rem;
   width: 31.25rem;
-  margin-left: 3.5rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      rgba(25, 52, 94, 0.5),
+      rgba(25, 52, 94, 0.5)
+    ),
+    url("../images/Rectangle.png");
 }
-/* END SECTION 4 */
 
 /* SECTION 5 */
 .section-5 {
-  padding-top: 10rem;
+  padding-block: 6.25rem;
+  padding-inline: 10.3rem;
+}
+
+.section-5 h2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: var(--color-1);
 }
 
 .section-5 h1 {
-  font-weight: 700;
-  color: #19345e;
+  font-size: 2.625rem;
+  color: var(--color-1);
 }
 
-.section-5 p {
-  color: #19345e;
+.section-5 .btn-arrow {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
 }
 
-/* END SECTION 5 */
+.section-5 .arrow-section-5 {
+  content: "";
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-3);
+}
+
+.section-5 .arrow-section-5 img {
+  height: 2rem;
+}
+
+.section-5 .card img {
+  height: 23.75rem;
+  width: 21.875rem;
+}
+
+.section-5 .card h5 {
+  font-size: 1.5rem;
+  color: var(--color-1);
+}
+
+.section-5 .card p {
+  font-size: 1.25rem;
+}
 
 /* SECTION 6 */
 .section-6 {
-  padding-top: 5rem;
+  padding-block: 5rem;
+  padding-inline: 10.3rem;
 }
 
-.card {
-  border: none;
-}
-
-.card-name {
-  font-weight: 700;
+.section-6 h1 {
+  font-size: 2.625rem;
   color: var(--color-1);
-  margin: 0;
 }
 
-.card-job-desc {
-  font-weight: 500;
+.section-6 .card {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/* END SECTION 6 */
+.section-6 .card img {
+  width: 12.75rem;
+  margin-bottom: 2rem;
+}
+
+.section-6 .card h5 {
+  font-size: 1.5rem;
+  color: var(--color-1);
+}
 
 /* SECTION 7 */
 .section-7 {
-padding-block: 2rem;
+  padding-inline: 0;
+  padding-block: 4rem;
+  background-color: var(--color-3);
 }
 
-.headings-7 {
+.section-7 h1 {
+  font-size: 3.25rem;
   color: var(--color-1);
 }
 
-.card-description {
+.section-7 p {
+  font-size: 1.125rem;
 }
-
-/* END SECTION 7 */
-
-/* SECTION 8 */
-.section-8 {
-    padding-block: 4rem;
-    padding-inline: 4rem;
-    background-color: var(--color-3);
-  }
-
-  .section-8 h1 {
-    font-size: 2.25rem;
-  }
-
-  .section-8 p {
-    font-size: 0.9rem;
-  }
-
-/* END SECTION 8 */
 
 /* FOOTER */
 .footer {
@@ -253,19 +275,8 @@ padding-block: 2rem;
   background-color: var(--color-1);
 }
 
-.footer a {
-  text-decoration: none;
-}
-
 .footer p {
   color: white;
-}
-
-.footer-link {
-  gap: 1.75rem;
-  display: flex;
-  justify-content: end;
-  margin-bottom: 2rem;
 }
 
 .footer .line {
@@ -273,151 +284,9 @@ padding-block: 2rem;
   opacity: 0.08;
   height: 0.125rem;
   margin-block: 1.375rem;
-  background-color: var(--color-3);
-}
-/* END FOOTER */
-
-/* Media Query */
-
-/* HP */
-/* ukuran 767px kebawah pake ini */
-@media only screen and (max-width: 767px) {
-  /* NAVBAR */
-  .padding-navbar {
-    padding-inline: 2rem !important;
-  }
-
-  .navbar-nav {
-    gap: 0rem !important;
-  }
-
-  .padding-navbar-content {
-    padding-left: 0;
-  }
-
-  /* Section 1 */
-
-  .section-1 {
-    padding-inline: 0.5rem;
-    padding-block: 0.5rem;
-  }
-
-  .section-1 h1 {
-    font-size: 2rem;
-  }
-  .text-information {
-    font: 1rem;
-    padding-bottom: 15rem;
-  }
-
-  /* Section 2 */
-  .section-2 {
-    padding: 3rem;
-  }
-
-  .stats-count {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .the-status {
-    display: block;
-    font-size: 1.5rem;
-  }
-
-  .the-compliments {
-    display: block;
-    text-align: center;
-    font-size: 0.8rem;
-  }
-
-  /* SECTION-3 */
-
-  .section-3 {
-    padding-inline: 2rem;
-    padding-block: 2rem;
-  }
-
-  .left-cont {
-    padding-inline: 1rem;
-  }
-
-  .left-cont {
-    width: 15rem;
-    height: 16rem;
-    margin-inline: 2rem;
-  }
-
-  .right-cont h1 {
-    font-size: 1.5rem;
-    margin-bottom: 0;
-  }
-
-  .right-cont h5 {
-    font-size: 1.2rem;
-  }
-
-  /* SECTION 4 */
-
-  .section-4 {
-    padding-top: 2rem;
-  }
-  .group-content {
-    margin: 0;
-    padding: 0;
-  }
-
-  /* SECTION 5 */
-  .section-5 {
-    padding: 0;
-  }
-
-  /* SECTION 6 */
-  .section-6 img {
-    width: 11rem;
-  }
-
-  .card {
-    padding-inline: 2rem;
-    align-items: center;
-  }
-
-  /* SECTION 7 */
-  .section-7 .card {
-    margin-bottom: 2rem;
-    margin-inline: 2rem;
-    align-items: center;
-  }
-  .section-7 .card img {
-    width: 11rem;
-  }
-
-  /* SECTION 8 */
-  .section-8 {
-    padding-block: 4rem;
-    padding-inline: 2rem;
-  }
-
-  .section-8 h1 {
-    font-size: 2rem;
-  }
-  .section-8 p {
-    font-size: 0.8rem;
-  }
-
-  /* FOOTER */
-  .footer {
-    padding-inline: 2rem;
-  }
-
-  .footer p {
-    color: white;
-    font-size: 0.6rem;
-  }
+  background-color: #fff;
 }
 
-/* Tablet */
 @media only screen and (max-width: 991px) {
   /* NAVBAR */
   .padding-navbar {
@@ -432,32 +301,159 @@ padding-block: 2rem;
     padding-left: 0;
   }
 
-  /* Section 1 */
-
+  /* SECTION-1 */
   .section-1 {
-    padding: 3rem;
+    padding-inline: 4rem;
+    padding-top: 8.375rem;
+    padding-bottom: 5.75rem;
   }
 
-  .headings-1 {
-    font-size: 3rem;
+  .section-1 h1 {
+    font-size: 2.5rem;
+  }
+
+  .section-1 h2 {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  /* SECTION 2 */
+  .section-2 {
+    padding-block: 4rem;
+    padding-inline: 4rem;
+  }
+  .section-2 .contet-1-section2 {
+    border-right: 1px solid grey;
+  }
+
+  .section-2 .contet-2-section2 {
+    border-right: none;
+  }
+
+  .section-2 .contet-3-section2 {
+    border-right: 1px solid grey;
+  }
+
+  .section-2 h1 {
+    font-size: 2.2rem;
+  }
+
+  .section-2 h2 {
+    font-size: 1rem;
+  }
+
+  .the-status {
+    font-size: 2.5rem;
+  }
+
+  .the-compliments {
+    font-size: 1.125rem;
   }
 
   /* SECTION-3 */
   .section-3 {
+    padding-top: 8rem;
     padding-inline: 4rem;
-    padding-block: 4rem;
+  }
+
+  .section-3 h1 {
+    font-size: 2.25rem;
+  }
+
+  .section-3 h2 {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+  }
+
+  .left-cont {
+    width: 25rem;
+    height: 31.25rem;
+  }
+
+  /* SECTION 4 */
+  .section-4 {
+    padding-block: 6rem;
+    padding-inline: 4rem;
+  }
+
+  .section-4 h1 {
+    font-size: 1.25rem;
+  }
+
+  .section-4 p {
+    line-height: 1.625rem;
   }
 
   /* SECTION 5 */
-  
-
-  /* SECTION 7 */
-  .section-7 .card {
-    margin-bottom: 2rem;
-    align-items: center;
+  .section-5 {
+    padding-block: 5rem;
+    padding-inline: 4rem;
   }
-  .section-7 .card img {
-    width: 11rem;
+
+  .section-5 h2 {
+    font-size: 1.4rem;
+  }
+
+  .section-5 h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .section-5 .btn-arrow {
+    position: relative;
+  }
+
+  .section-5 .arrow-section-5 {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .section-5 .arrow-section-5 img {
+    height: 1.5rem;
+  }
+
+  .section-5 .card img {
+    width: 18.875rem;
+    height: 20.75rem;
+  }
+
+  .section-5 .card h5 {
+    font-size: 1.5rem;
+  }
+
+  .section-5 .card p {
+    font-size: 1.25rem;
+  }
+
+  /* SECTION 6 */
+  .section-6 {
+    padding-inline: 4rem;
+  }
+
+  .section-6 h1 {
+    font-size: 2.625rem;
+  }
+
+  .section-6 .card img {
+    width: 12.75rem;
+  }
+
+  .section-6 .card h5 {
+    font-size: 1.5rem;
+  }
+
+  /* SECTION-7 */
+  .section-7 {
+    padding-block: 4rem;
+    padding-inline: 4rem;
+  }
+
+  .section-7 h1 {
+    font-size: 2.25rem;
+  }
+
+  .section-7 p {
+    font-size: 0.9rem;
   }
 
   /* FOOTER */
@@ -466,7 +462,172 @@ padding-block: 2rem;
   }
 
   .footer p {
-    color: white;
     font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* NAVBAR */
+  .padding-navbar {
+    padding-inline: 2rem !important;
+  }
+
+  .navbar-nav {
+    gap: 0rem !important;
+  }
+
+  .padding-navbar-content {
+    padding-left: 0;
+  }
+
+  /* SECTION-1 */
+  .section-1 {
+    padding-inline: 2rem;
+    padding-top: 4.375rem;
+    padding-bottom: 2.75rem;
+  }
+
+  .section-1 h1 {
+    font-size: 2rem;
+  }
+
+  .section-1 h2 {
+    font-size: 0.9rem;
+    line-height: normal;
+  }
+
+  /* SECTION 2 */
+  .section-2 {
+    padding-block: 3rem;
+    padding-inline: 2rem;
+  }
+
+  .section-2 .contet-1-section2 {
+    border-right: none;
+  }
+
+  .section-2 .contet-2-section2 {
+    border-right: none;
+  }
+
+  .section-2 .contet-3-section2 {
+    border-right: none;
+  }
+
+  .section-2 h1 {
+    font-size: 1.5rem;
+  }
+
+  .section-2 h2 {
+    font-size: 1rem;
+  }
+
+  .the-status {
+    font-size: 2rem;
+  }
+
+  .the-compliments {
+    font-size: 1rem;
+  }
+
+  /* SECTION-3 */
+  .section-3 {
+    padding-top: 6rem;
+    padding-inline: 2rem;
+  }
+
+  .section-3 h1 {
+    font-size: 1.6rem;
+  }
+
+  .section-3 h2 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .left-cont {
+    width: 15rem;
+    height: 21.25rem;
+  }
+
+  /* SECTION 4 */
+  .section-4 {
+    padding-inline: 2rem;
+  }
+  .section-4 p {
+    text-align: justify;
+  }
+
+  /* SECTION 5 */
+  .section-5 {
+    padding-inline: 2rem;
+  }
+
+  .section-5 h2 {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .section-5 h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .section-5 .btn-arrow {
+    position: relative;
+    padding-inline: 2rem;
+  }
+
+  .section-5 .arrow-section-5 {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .section-5 .card img {
+    width: 18.875rem;
+    height: 20.75rem;
+  }
+
+  .section-5 .card h5 {
+    font-size: 1.5rem;
+  }
+
+  .section-5 .card p {
+    font-size: 1.25rem;
+  }
+
+  /* SECTION 6 */
+  .section-6 {
+    padding-inline: 2rem;
+  }
+
+  .section-6 h1 {
+    font-size: 2.4rem;
+  }
+
+  /* SECTION-7 */
+  .section-7 {
+    padding-block: 4rem;
+    padding-inline: 2rem;
+  }
+
+  .section-7 h1 {
+    font-size: 1.8rem;
+  }
+
+  .section-7 p {
+    font-size: 0.8rem;
+  }
+
+  /* FOOTER */
+  .footer {
+    padding-inline: 2rem;
+  }
+
+  .footer p {
+    color: white;
+    font-size: 0.6rem;
   }
 }

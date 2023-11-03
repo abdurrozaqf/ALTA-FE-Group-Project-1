@@ -4,25 +4,24 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Features</title>
-
-    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="assets/css/features.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <!-- BOOTSTRAP -->
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/features.css" />
-    <!-- CSS -->
   </head>
   <body>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg bg-white">
       <div class="container-fluid padding-navbar">
-        <a class="navbar-brand" href="#"><img src="assets/images/logo-ALTA@2x.png" alt="Logo Alterra Academy" style="width: 8.125rem" /></a>
+        <a class="navbar-brand" href="#"
+          ><img
+            src="assets/images/logo-ALTA@2x.png"
+            alt="Logo Alterra Academy"
+            style="width: 8.125rem"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -34,279 +33,304 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="padding-left: 4.25rem">
+        <div
+          class="collapse navbar-collapse padding-navbar-content"
+          id="navbarNavAltMarkup"
+        >
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">About-Us</a>
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="#">Features</a>
+            <a class="nav-link" href="about-us.html">About-Us</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </div>
         </div>
       </div>
     </nav>
-    <!-- END NAVBAR -->
 
-    <!-- SECTION 1 -->
+    <!-- SECTION-1 -->
     <section class="section-1">
-      <div class="row row-cols-1 row-cols-lg-2 text-start">
-        <div class="col-12 col-lg-7 mt-5">
-          <h1>We Have Created A Big Library Of Illustrations With Custom Style And Action Types.</h1>
-          <p class="text-information">
-            “E-commerce Illustration Pack collects different ways to do quick shopping, pay in a second, and get all those stuff you need. There are
-            smart delivery and polite service in the scenes. Each of them is realized in cold and warm colors with”
-          </p>
-          <div class="d-flex align-items-center mt-5">
-            <img class="d-block mt-5" src="assets/images/portrait_oval.png" alt="photo-profile" style="width: 3cm" />
-            <p class="ps-2 mt-5 mb-0">
-              <span style="font-size: 18px; color: #1e1e1e">Jesica Kumari</span><br />
-              CEO Of Acme Limited
-            </p>
-          </div>
-          <button class="cta-explore mt-3" type="button">Explore More About This ➝</button>
-        </div>
+      <div class="col col-lg-7">
+        <h1 class="fw-bold">
+          We Have Created A Big Library Of Illustrations With Custom Style And
+          Action Types.
+        </h1>
+        <h2 class="py-4">
+          “E-commerce Illustration Pack collects different ways to do quick
+          shopping, pay in a second, and get all those stuff you need. There are
+          smart delivery and polite service in the scenes. Each of them is
+          realized in cold and warm colors with”
+        </h2>
       </div>
+      <div class="d-flex align-items-center mb-5">
+        <img
+          src="assets/images/portrait_oval.png"
+          alt="Profile"
+          style="height: 5.625rem"
+        />
+        <p class="ps-4">
+          <span class="fw-medium">Jesica Kumari</span> <br />
+          CEO Of Acme Limited
+        </p>
+      </div>
+      <button class="fw-medium py-2 px-3 py-md-3 px-md-4">
+        Explore More About This ➝
+      </button>
     </section>
-    <!-- SECTION 1 -->
 
     <!-- SECTION 2 -->
     <section class="section-2">
-      <!-- <div class="container"> -->
-      <div class="row justify-content-center text-center">
-        <div class="col-12">
-          <h3 class="headings-2">Some count that matters</h3>
-          <p class="paragraph-20">Our achievement in the journey depicted in numbers</p>
+      <div class="row justify-content-center text-center mb-4">
+        <div class="col-lg-12">
+          <h1 class="fw-bold">Some count that matters</h1>
+          <h2>Our achievement in the journey depicted in numbers</h2>
         </div>
       </div>
-      <div class="row justify-content-around stats-count text-center">
-        <div class="col-4 col-md-4 col-lg-2 p-0 border-end border-secondary stats-count-divider">
+      <div
+        class="row row-cols-1 row-cols-md-2 row-cols-lg-4 row-gap-3 row-gap-md-5 text-center justify-content-around"
+      >
+        <div class="col contet-1-section2">
           <p class="mb-0 the-status">5</p>
           <p class="the-compliments">Services Geographics</p>
         </div>
-        <div class="col-2 col-md-3 border-end border-secondary stats-count-divider">
+        <div class="col contet-2-section2">
           <p class="mb-0 the-status">30</p>
           <p class="the-compliments">Fortune 500 Clients</p>
         </div>
-        <div class="col-2 col-md-3 border-end border-secondary stats-count-divider">
+        <div class="col contet-3-section2">
           <p class="mb-0 the-status">300</p>
           <p class="the-compliments">Dedicated Members</p>
         </div>
-        <div class="col-2 col-md-3 stats-count-divider">
+        <div class="col">
           <p class="mb-0 the-status">8</p>
           <p class="the-compliments">Years of Journey</p>
         </div>
       </div>
       <!-- </div> -->
     </section>
-    <!-- SECTION 2 -->
 
     <!--  SECTION 3 -->
     <section class="section-3">
-      <!-- <div class="container container-md" style=""> -->
-      <div class="row row-cols-1 row-cols-lg-2">
-        <div class="col col-lg-4">
-          <div class="left-cont">
-            <p>Video store with 10 <br />samples on 20 min</p>
+      <div class="row row-cols-1 row-cols-lg-2 justify-content-center">
+        <!-- 1 -->
+        <div class="row justify-content-center justify-content-lg-start">
+          <div class="col-auto col-lg-4 mb-5">
+            <div class="left-cont">
+              <p>Video store with 10 <br />samples on 20 min</p>
+            </div>
           </div>
         </div>
-        <div class="col right-cont">
-          <h1>Headline of Modern and Digital Lending Platform In a Few Seconds for You</h1>
-          <h5>
-            Nowadays, it isn’t uncommon to see lenders rapidly adopting a digital lending strategy to streamline the lending process Gorgeous,
-            high-quality design system for mobile, tablet & a few reasons digital
-          </h5>
+        <!-- 2 -->
+        <div class="col">
+          <h1 class="fw-bold">
+            Headline of Modern and Digital Lending Platform In a Few Seconds for
+            You
+          </h1>
+          <h2 class="my-4">
+            Nowadays, it isn’t uncommon to see lenders rapidly adopting a
+            digital lending strategy to streamline the lending process Gorgeous,
+            high-quality design system for mobile, tablet & a few reasons
+            digital
+          </h2>
           <div class="d-flex align-items-center">
-            <img src="assets/images/icon_play.png" alt="" style="width: 3rem; border: 1px solid #19345e; border-radius: 50%" />
-            <p class="text-center">Play Tutorial</p>
+            <img
+              src="assets/images/icon_play.png"
+              alt=""
+              style="width: 48px; border: 1px solid #19345e; border-radius: 50%"
+            />
+            <p
+              class="text-center m-0 ps-3 fw-medium"
+              style="color: #19345e; font-size: 1.125rem"
+            >
+              Play Tutorial
+            </p>
           </div>
         </div>
       </div>
       <!-- </div> -->
     </section>
-    <!-- END SECTION 3 -->
 
     <!-- SECTION 4 -->
     <section class="section-4">
-      <div class="row row-cols-1 row-cols-lg-2">
+      <div
+        class="row row-cols-1 row-cols-lg-2 column-gap-5 justify-content-center"
+      >
         <!-- CONTENT -->
-        <div class="col">
-          <div class="row row-cols-1 row-cols-md-2 group-content">
-            <div class="col p-2 mb-3">
-              <img src="assets/images/icon_grid.png" alt="" style="width: 3rem" />
-              <p class="fs-5 fw-bold py-2 m-0" style="color: #19345e">First Feature</p>
-              <p class="d-inline">
-                Gorgeous, high-quality design <br />
-                system for mobile, tablet and <br />
+        <div class="col col-lg-5">
+          <div class="row row-cols-1 row-cols-md-2 row-gap-3 row-gap-md-5">
+            <!-- 1 -->
+            <div class="col">
+              <img src="assets/images/icon_grid.png" style="width: 2.75rem" />
+              <h1 class="fw-bold my-3">First Feature</h1>
+              <p>
+                Gorgeous, high-quality design system for mobile, tablet and
                 desktop devices a few reasons
               </p>
             </div>
-            <div class="col p-2 mb-3">
-              <img src="assets/images/icon_grid.png" alt="" style="width: 3rem" />
-              <p class="fs-5 fw-bold py-2 m-0" style="color: #19345e">First Feature</p>
+            <!-- 2 -->
+            <div class="col">
+              <img src="assets/images/icon_layers.png" style="width: 2.75rem" />
+              <h1 class="fw-bold my-3">Second Feature</h1>
               <p>
-                Gorgeous, high-quality design <br />
-                system for mobile, tablet and <br />
+                Gorgeous, high-quality design system for mobile, tablet and
                 desktop devices a few reasons
               </p>
             </div>
-            <div class="col p-2 mb-3">
-              <img src="assets/images/icon_grid.png" alt="" style="width: 3rem" />
-              <p class="fs-5 fw-bold py-2 m-0" style="color: #19345e">First Feature</p>
+            <!-- 3 -->
+            <div class="col">
+              <img src="assets/images/icon_heart.png" style="width: 2.75rem" />
+              <h1 class="fw-bold my-3">Third Feature</h1>
               <p>
-                Gorgeous, high-quality design <br />
-                system for mobile, tablet and <br />
+                Gorgeous, high-quality design system for mobile, tablet and
                 desktop devices a few reasons
               </p>
             </div>
-            <div class="col p-2 mb-3">
-              <img src="assets/images/icon_grid.png" alt="" style="width: 3rem" />
-              <p class="fs-5 fw-bold py-2 m-0" style="color: #19345e">First Feature</p>
+            <!-- 4 -->
+            <div class="col">
+              <img src="assets/images/icon_star.png" style="width: 2.75rem" />
+              <h1 class="fw-bold my-3">Fourth Feature</h1>
               <p>
-                Gorgeous, high-quality design <br />
-                system for mobile, tablet and <br />
+                Gorgeous, high-quality design system for mobile, tablet and
                 desktop devices a few reasons
               </p>
             </div>
-            <div class="col p-2 mb-3">
-              <img src="assets/images/icon_grid.png" alt="" style="width: 3rem" />
-              <p class="fs-5 fw-bold py-2 m-0" style="color: #19345e">First Feature</p>
+            <!-- 5 -->
+            <div class="col">
+              <img src="assets/images/icon_flash.png" style="width: 2.75rem" />
+              <h1 class="fw-bold my-3">Fifth Feature</h1>
               <p>
-                Gorgeous, high-quality design <br />
-                system for mobile, tablet and <br />
+                Gorgeous, high-quality design system for mobile, tablet and
                 desktop devices a few reasons
               </p>
             </div>
-            <div class="col p-2 mb-3">
-              <img src="assets/images/icon_grid.png" alt="" style="width: 3rem" />
-              <p class="fs-5 fw-bold py-2 m-0" style="color: #19345e">First Feature</p>
+            <!-- 6 -->
+            <div class="col">
+              <img src="assets/images/icon_shield.png" style="width: 2.75rem" />
+              <h1 class="fw-bold my-3">Sixth Feature</h1>
               <p>
-                Gorgeous, high-quality design <br />
-                system for mobile, tablet and <br />
+                Gorgeous, high-quality design system for mobile, tablet and
                 desktop devices a few reasons
               </p>
             </div>
           </div>
         </div>
         <!-- GAMBAR -->
-        <div class="col-auto">
+        <div class="col col-lg-4 p-0">
           <div class="d-none d-lg-block right-container"></div>
         </div>
       </div>
     </section>
-    <!-- END SECTION 4 -->
 
     <!-- SECTION 5 -->
     <section class="section-5">
-      <!-- <div class="container"> -->
-      <div class="row">
-        <div class="col-6 col-lg-6 col-md-4 offset-1">
-          <p class="fs-4">Meet Our Leader</p>
-          <h1 class="d-inline">Nowadays, it isn’t uncommon to see lenders rapidly adopting a digital lending strategy to streamline</h1>
+      <!-- 1 -->
+      <div class="row row-cols-1 row-cols-lg-2 mb-5">
+        <div class="col col-lg-6">
+          <h2>Meet Our Leader</h2>
+          <h1 class="fw-bold">
+            Nowadays, it isn’t uncommon to see lenders rapidly adopting a
+            digital lending strategy to streamline
+          </h1>
         </div>
 
-        <div class="col-3 col-lg-4 align-items-center position-relative">
-          <div class="d-none d-md-block position-absolute bottom-0">
-            <img
-              src="assets/images/icon_arrow_backward.png"
-              alt=""
-              style="width: 48px; border: none solid #19345e; border-radius: 50%; background-color: #e7ebfc; margin-right: 1rem"
-            />
-            <img
-              src="assets/images/icon_arrow_forward.png"
-              alt=""
-              style="width: 48px; border: none solid #19345e; border-radius: 50%; background-color: #e7ebfc"
-            />
+        <div class="col position-relative">
+          <div class="d-flex column-gap-3 justify-content-between btn-arrow">
+            <div class="arrow-section-5">
+              <img src="assets/images/icon_arrow_backward.png" />
+            </div>
+            <div class="arrow-section-5">
+              <img src="assets/images/icon_arrow_forward.png" />
+            </div>
           </div>
         </div>
       </div>
-      <!-- </div> -->
+      <!-- 2 -->
+      <div
+        class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-gap-5 justify-content-center justify-content-md-between justify-content-lg-start"
+      >
+        <div class="col col-auto col-md-auto col-lg-auto">
+          <div class="card border-0">
+            <img src="assets/images/Rectangle1.png" class="mb-4" />
+            <h5 class="card-title fw-semibold">Samuel Willson</h5>
+            <p class="card-text fw-medium">Digital Artist</p>
+          </div>
+        </div>
+        <div class="col col-auto col-md-auto col-lg-auto">
+          <div class="card border-0">
+            <img src="assets/images/Rectangle1.png" class="mb-4" />
+            <h5 class="card-title fw-semibold">Angelina Hellhop</h5>
+            <p class="card-text fw-medium">Digital Artist</p>
+          </div>
+        </div>
+        <div class="col col-auto col-md-auto col-lg-auto">
+          <div class="card border-0">
+            <img src="assets/images/Rectangle1.png" class="mb-4" />
+            <h5 class="card-title fw-semibold">Kyle Generale</h5>
+            <p class="card-text fw-medium">Digital Artist</p>
+          </div>
+        </div>
+      </div>
     </section>
-    <!-- END SECTION 5 -->
 
     <!-- SECTION 6 -->
     <section class="section-6">
-      <div class="container">
-        <div class="row justify-content-between">
-          <div class="card" style="width: 22rem">
-            <img src="assets/images/Rectangle1.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <p class="card-name fs-4">Samuel Willson</p>
-              <p class="card-job-desc fs-5">Digital Artist</p>
-            </div>
+      <!-- 1 -->
+      <h1 class="fw-bold text-center mb-5">How It Works</h1>
+      <!-- 2 -->
+      <div
+        class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center gap-5"
+      >
+        <div class="col-auto col-md-auto col-lg-auto">
+          <div class="card">
+            <img src="assets/images/doodle_create.png" />
+            <h5 class="card-title fw-bold">Create your site</h5>
+            <p class="card-text">Create an account to get started.</p>
           </div>
-          <div class="card" style="width: 22rem">
-            <img src="assets/images/Rectangle1.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <p class="card-name fs-4">Angelina Hellhop</p>
-              <p class="card-job-desc fs-5">Digital Artist</p>
-            </div>
+        </div>
+        <div class="col-auto col-md-auto col-lg-auto">
+          <div class="card">
+            <img src="assets/images/doodle_add_content.png" />
+            <h5 class="card-title fw-bold">Add Contents</h5>
+            <p class="card-text">Add contents and pages to your site.</p>
           </div>
-          <div class="card" style="width: 22rem">
-            <img src="assets/images/Rectangle1.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <p class="card-name fs-4">Kyle Generale</p>
-              <p class="card-job-desc fs-5">Digital Artist</p>
-            </div>
+        </div>
+        <div class="col-auto col-md-auto col-lg-auto">
+          <div class="card">
+            <img src="assets/images/doodle_launch.png" />
+            <h5 class="card-title fw-bold">Publish</h5>
+            <p class="card-text">Now publish to make your site live!</p>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- END SECTION 6 -->
 
     <!-- SECTION 7 -->
     <section class="section-7">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-12" style="padding: 5rem">
-            <h3 class="headings-7 fs-1 fw-bold">How It Works</h3>
-          </div>
-        </div>
-        <div class="row justify-content-between">
-          <div class="card" style="width: 22rem">
-            <img src="assets/images/doodle_create.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <p class="card-name fs-4 text-center">Create your site</p>
-              <p class="card-description">Create an account to get started.</p>
-            </div>
-          </div>
-          <div class="card" style="width: 22rem">
-            <img src="assets/images/doodle_add_content.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <p class="card-name fs-4 text-center">Add Contents</p>
-              <p class="card-description">Add contents and pages to your site.</p>
-            </div>
-          </div>
-          <div class="card" style="width: 22rem">
-            <img src="assets/images/doodle_launch.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <p class="card-name fs-4 text-center">Publish</p>
-              <p class="card-description">Now publish to make your site live!</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- END SECTION 7 -->
-
-    <!-- SECTION 8 -->
-    <section class="section-8">
       <div class="row row-cols-1 justify-content-center">
         <div class="col col-lg-7 text-center">
-          <h1 class="fw-bold" style="color: #19345e">The Is Closing Headline To Make A Impact For Call To Action</h1>
+          <h1 class="fw-bold" style="color: #19345e">
+            The Is Closing Headline To Make A Impact For Call To Action
+          </h1>
           <div class="row justify-content-center">
             <div class="col col-lg-9 px-0 py-4 text-center">
               <p>
-                Nowadays, it isn't uncommon to see lenders rapidly adopting a digital lending strategy to streamline the lending process nowadays, it
-                isn't uncommon to see lenders rapidly
+                Nowadays, it isn't uncommon to see lenders rapidly adopting a
+                digital lending strategy to streamline the lending process
+                nowadays, it isn't uncommon to see lenders rapidly
               </p>
             </div>
           </div>
-          <button class="fw-medium py-2 px-3 py-md-3 px-md-4 mt-4" style="margin-top: 3.8125rem; margin-bottom: 2.6875rem">BOOK A Meeting →</button>
+          <button
+            class="fw-medium py-2 px-3 py-md-3 px-md-4 mt-4"
+            style="margin-top: 3.8125rem; margin-bottom: 2.6875rem"
+          >
+            BOOK A Meeting ➝
+          </button>
           <hr />
         </div>
         <div class="col col-lg-7 mt-5">
-          <div class="row row-cols-2 row-cols-lg-6 row-gap-4 align-items-center">
+          <div
+            class="row row-cols-2 row-cols-lg-6 row-gap-4 align-items-center"
+          >
             <div class="col p-0 text-center">
               <img src="assets/images/Philips.png" style="height: 1.1875rem" />
             </div>
@@ -329,17 +353,23 @@
         </div>
       </div>
     </section>
-    <!-- END SECTION 8 -->
 
     <!-- FOOTER -->
     <footer id="footer" class="footer">
-      <img src="assets/images/logo-ALTA-v2@2x.png" alt="Logo Alterra Academy" style="width: 8.125rem" />
+      <img
+        src="assets/images/logo-ALTA-v2@2x.png"
+        alt="Logo Alterra Academy"
+        style="width: 8.125rem"
+      />
       <!-- 1 -->
       <div class="row row-cols-1 row-cols-md-2 mt-4 justify-content-between">
         <!-- 1 -->
         <div class="col col-md-5">
           <p>About Alterra Academy</p>
-          <p>Alterra Academy is HubSpot Theme Bassed On Engagement Design Framework, designed & developed by Openthrive</p>
+          <p>
+            Alterra Academy is HubSpot Theme Bassed On Engagement Design
+            Framework, designed & developed by Openthrive
+          </p>
           <a href=""><p class="fw-bold">Button Text →</p></a>
         </div>
         <!-- 2 -->
@@ -403,7 +433,10 @@
       <div class="row row-cols-1 row-cols-md-2 align-items-center">
         <!-- 1 -->
         <div class="col text-center text-md-start">
-          <p>B2B website and engagement design solution that transform marketing and sales performance like never before.</p>
+          <p>
+            B2B website and engagement design solution that transform marketing
+            and sales performance like never before.
+          </p>
         </div>
         <!-- 2 -->
         <div class="col text-center text-md-end">
@@ -411,14 +444,11 @@
         </div>
       </div>
     </footer>
-    <!-- END FOOTER -->
 
-    <!-- JAVASCRIPT -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-    <!-- END JAVASCRIPT -->
   </body>
 </html>
