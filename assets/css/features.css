@@ -225,11 +225,6 @@ button {
   height: 2rem;
 }
 
-.section-5 .card img {
-  height: 23.75rem;
-  width: 21.875rem;
-}
-
 .section-5 .card h5 {
   font-size: 1.5rem;
   color: var(--color-1);
